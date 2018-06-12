@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html ng-app>
+<head>
+    <meta charset="utf-8" />
+    <title>DemoAppAngular</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body ng-app="App" ng-controller="EmployeeController">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="data in dataList">
+                <td>{{data.ID}}</td>
+                <td>{{data.Name}}</td>
+                <td>{{data.Location}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

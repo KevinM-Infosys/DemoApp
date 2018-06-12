@@ -1,0 +1,13 @@
+{
+  "name": "angular-demo-app",
+  "version": "0.0.0",
+  "description": "AngularDemoApp",
+  "main": "server.js",
+  "author": {
+    "name": "kevin.muppattayil"
+  },
+  "dependencies": {
+    "@angular/cli": "^6.0.8",
+    "express": "^4.16.3"
+  }
+}
