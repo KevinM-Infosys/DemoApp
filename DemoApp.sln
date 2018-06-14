@@ -8,6 +8,11 @@ EndProject
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "DemoAppAngular", "DemoAppAngular\DemoAppAngular.jsproj", "{6CC23934-71E9-4EC7-AD0B-A5BC677FD741}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "AngularDemoApp", "AngularDemoApp\AngularDemoApp.njsproj", "{05C3C133-F81D-4CFE-B8E3-CC8902753099}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A} = {0A18194E-947D-4A8F-98D0-CE2F89990B1A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDAO", "DemoDAO\DemoDAO.csproj", "{0A18194E-947D-4A8F-98D0-CE2F89990B1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +82,22 @@ Global
 		{05C3C133-F81D-4CFE-B8E3-CC8902753099}.Release|x64.Build.0 = Release|Any CPU
 		{05C3C133-F81D-4CFE-B8E3-CC8902753099}.Release|x86.ActiveCfg = Release|Any CPU
 		{05C3C133-F81D-4CFE-B8E3-CC8902753099}.Release|x86.Build.0 = Release|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Debug|x86.Build.0 = Debug|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Release|ARM.Build.0 = Release|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Release|x64.Build.0 = Release|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Release|x86.ActiveCfg = Release|Any CPU
+		{0A18194E-947D-4A8F-98D0-CE2F89990B1A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
